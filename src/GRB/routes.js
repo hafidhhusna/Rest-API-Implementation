@@ -16,7 +16,7 @@ router.post("/book/filter", controller.SQLBuilder);
 router.put("/update/book/:id", controller.updateBook);
 
 //Route Delete
-router.delete("/:id", controller.removeBook);
+router.delete("/delete/book/:id", controller.removeBook);
 
 //TCL
 router.post("/post/addBookStock", controller.addBookStocks);
